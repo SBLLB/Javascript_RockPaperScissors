@@ -17,7 +17,7 @@ describe('Rock, Paper, Scissors', function() {
 				expect(rules.compare(scissors, rock)).toEqual(rock);
 			});
 
-			it('scissors vs scissors shoule return draw object', function() {
+			it('scissors vs scissors should return draw object', function() {
 				rules = new Rules();
 				draw = new Draw();
 				expect(rules.compare(scissors, scissors)).toEqual(draw);
