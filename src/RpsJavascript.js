@@ -15,6 +15,8 @@ function Scissors() {
 	this.beats = "Paper";
 };
 
+function Draw() {};
+
 Rules.prototype.compare = function(gestureOne, gestureTwo) {
 	if (gestureOne === gestureTwo) return new Draw; 
 	else if (gestureOne.beats === gestureTwo.gesture) return gestureOne;
