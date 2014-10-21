@@ -1,0 +1,58 @@
+@font-face {
+	fontfamily: Waltograph;
+	src: local('Waltograph'), url('public/css/waltograph42.ttf');
+}
+
+html { 
+  background: url('../images/bg_image.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-family: 'Waltograph', cursive;
+	font-size: 5.5em;
+	float: left;
+	text-align: center;
+	padding: 1em;
+	padding-top: .5em;
+	padding-bottom: 2em;
+
+	color: #FFFFFF;
+}
+
+p {
+	font-family: 'Waltograph', cursive;
+	font-size: 2em;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.gesture {
+	clear: both
+}
+
+
+section {
+	display: inline-flex;
+	clear: both
+}
+
+article {
+	margin: 1em;
+	padding: 1em;
+	opacity: .75;
+	
+	/*background-color: #AEB9B4;*/
+	background-image: -webkit-radial-gradient(circle, white, black);*/
+}
+
+article:hover {
+	opacity: 1;
+}
+
+
+
+.
