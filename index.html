@@ -5,27 +5,35 @@
 		<title>Rock Paper Scissors</title>
 		<link type="text/css" rel="stylesheet" href="public/css/reset.css" />
 		<link type="text/css" rel="stylesheet" href="public/css/stylesheet.css" />
-		<link type="text/javascript" src="../../coding/jquery.js" />
+		
 	</head> 
 	<body>
 		<h1>Mickey's </br> Rock, Paper, Scissors</h1>
-
+		<h2></h2>
+		<h3 id="playersChoice"></h3>
+		<h3 id="computersChoice"> </h3>
 		<section>
 			<article>
-				 <image class="gesture" src='public/images/rock.svg' alt="Play Rock">
+				 <image id='Rock' class="gesture" src='public/images/rock.svg' alt="Play Rock" data-gesture="rock">
 				 <p>Rock</p>
 			</article>
 
 			<article>
-			 	<image class="gesture" src='public/images/paper.svg' alt="Play Paper">
+			 	<image id='Paper' class="gesture" src='public/images/paper.svg' alt="Play Paper" data-gesture="paper">
 			 	<p>Paper</p>
 			</article>
 
 			<article>
-				<image class="gesture" src='public/images/scissors.svg' alt="Play Scissors">
+				<image id='Scissors' class="gesture" src='public/images/scissors.svg' alt="Play Scissors" data-gesture="scissors">
 				<p>Scissors</p>
 			</article>
 		</section>
+
+		<script type='text/javascript' src="../../coding/jquery.js"></script>
+		<script type='text/javascript' src="src/RpsJavascript.js"></script>
+		<script type='text/javascript' src="src/game.js"></script>
+
+		
 
 	</body>
 </html>

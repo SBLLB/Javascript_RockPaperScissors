@@ -23,6 +23,18 @@ h1 {
 	color: #FFFFFF;
 }
 
+h2 {
+	font-family: sans-serif;
+	font-size: 3em;
+	float: left;
+	text-align: center;
+	padding: 1em;
+	padding-top: .5em;
+	padding-bottom: 2em;
+
+	color: #FFFFFF;
+}
+
 p {
 	font-family: 'Waltograph', cursive;
 	font-size: 2em;

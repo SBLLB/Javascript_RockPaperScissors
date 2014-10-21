@@ -1,4 +1,4 @@
-function Rules() {};
+function RockPaperScissors() {};
 
 function Rock() {
 	this.gesture = "Rock";
@@ -15,10 +15,10 @@ function Scissors() {
 	this.beats = "Paper";
 };
 
-function Draw() {};
+// function Draw() {};
 
-Rules.prototype.compare = function(gestureOne, gestureTwo) {
-	if (gestureOne === gestureTwo) return new Draw; 
+RockPaperScissors.prototype.compare = function(gestureOne, gestureTwo) {
+	if (gestureOne.gesture === gestureTwo.gesture) return 'draw'; 
 	else if (gestureOne.beats === gestureTwo.gesture) return gestureOne;
 	else return gestureTwo
 };
