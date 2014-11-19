@@ -15,10 +15,8 @@ function Scissors() {
 	this.beats = "Paper";
 };
 
-// function Draw() {};
-
 RockPaperScissors.prototype.compare = function(gestureOne, gestureTwo) {
 	if (gestureOne.gesture === gestureTwo.gesture) return 'draw'; 
-	else if (gestureOne.beats === gestureTwo.gesture) return gestureOne;
+	if (gestureOne.beats === gestureTwo.gesture) return gestureOne;
 	else return gestureTwo
 };
