@@ -26,8 +26,10 @@ To run ``` $ open index.html ```
 
 
 ### To do 
-- [ ] Finish CSS  
-- [ ] Fix broken Jasmine tests!
-  
+- [ ] Finish CSS
+- [x] Fix broken Jasmine tests!
+- [ ] Write more extensive tests  
+
+
 
 
